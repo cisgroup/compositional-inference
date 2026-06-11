@@ -51,6 +51,8 @@ checkpoints in `models/`.
 The file `results/all-results-summary.pkl` is only used by an optional saved
 post-processing helper in `05-central-vs-distributed-ukf.py`.
 
+In case you need these files, please contact the authors.
+
 ## Run
 
 Run any example directly:
