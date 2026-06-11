@@ -1,7 +1,7 @@
 # Hydraulic dataset
 
 The full hydraulic training dataset is not included in the GitHub repository
-because of its file size.
+because of its file size. Please contact the author to send you the file.
 
 To rerun `08-Narx-training.ipynb`, place the dataset at:
 
