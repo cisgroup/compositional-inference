@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project large optional files
+data/hydraulic-dataset/hydraulic-dataset.csv
+results/all-results-summary.pkl

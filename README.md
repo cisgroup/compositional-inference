@@ -30,9 +30,8 @@ Run scripts from the repository root so the relative paths resolve correctly.
 ## Contents
 
 - `src/`: shared filtering and sensitivity utilities.
-- `data/`: input data files.
+- `data/`: input data files. The large hydraulic training CSV is optional and is not stored in this repository.
 - `models/`: trained NARX model checkpoints.
-- `results/`: saved result data used by optional post-processing helpers.
 - `01-four-dof-ukf-sindy.py`: 4-DOF UKF and SINDy message-passing example.
 - `02-six-dof-ukf.py`: 6-DOF distributed UKF example.
 - `03-six-dof-uncertainty-propagation.py`: 6-DOF uncertainty-propagation example.
@@ -42,6 +41,15 @@ Run scripts from the repository root so the relative paths resolve correctly.
 - `07-ieee9-turbine-inverse-kf.py`: IEEE-9 turbine inverse Kalman-filter example.
 - `08-Narx-training.ipynb`: NARX training notebook.
 - `09-SoS-turbine-model.ipynb`: system-of-systems turbine model notebook.
+
+## Optional Large Files
+
+The file `data/hydraulic-dataset/hydraulic-dataset.csv` is only needed to retrain
+the NARX model in `08-Narx-training.ipynb`. The turbine examples use the trained
+checkpoints in `models/`.
+
+The file `results/all-results-summary.pkl` is only used by an optional saved
+post-processing helper in `05-central-vs-distributed-ukf.py`.
 
 ## Run
 
